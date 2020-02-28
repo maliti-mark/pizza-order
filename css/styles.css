@@ -1,0 +1,18 @@
+#background{
+    background-image: url(/images/pizza.jpg);
+    background-size: ;
+    background-size: cover;
+    text-align: center;
+    text-size-adjust: 1050px;
+    text-decoration: underline dotted red;
+    font-style: italic;
+};
+.images:hover p{
+    text-align: center;
+    font-size: inherit;
+    font-style: oblique;
+}
+#images p{
+    display: none;
+}
+#images.images:hover;
