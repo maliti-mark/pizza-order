@@ -1,3 +1,7 @@
+#all{
+    background-color: rgb(31, 27, 27);
+}
+
 #background{
     background-image: url(/images/pizza.jpg);
     background-size: ;
@@ -6,11 +10,6 @@
     text-size-adjust: 1050px;
     text-decoration: underline dotted red;
     font-style: italic;
-};
-#images:hover p{
-    text-align: center;
-    font-size: inherit;
-    font-style: oblique;
 }
 #images p{
     display: none;
@@ -26,12 +25,41 @@
 .container-md-sm#size {
     text-align: center
 } 
-#back{
-    background-color: lightseagreen;
+
+
+textarea {
+    resize: none;
 }
-.btn{
-    color: maroon;
+
+.order{
+    text-align: center;
+    background-color: burlywood;fixed;
 }
-#toppingsb{
-    background-color: magenta;
+
+button {
+    color: whitesmoke !important;
+}
+
+
+.receipt{
+    text-align: center;
+    background-image: url(/images/backgroundd.jpeg);
+    background-size: cover;
+}
+footer{
+    text-align: center;
+}
+#size{
+    background-color fixed: gray;
+    h2{
+    
+}
+#size h2{
+    color: blanchedalmond;
+}
+.order1{
+    text-align: center;
+}
+#deliver{
+    text-align: center;
 }

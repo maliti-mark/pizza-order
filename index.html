@@ -1,14 +1,14 @@
  <!DOCTYPE html>
 <html>
   <head>
+    <title>maliti pizza inn</title>
     <link rel="stylesheet" href="/css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="/css/styles.css" type="text/css">
     <script src="js/jquery.js"></script>
     <script src="js/scripts.js"></script>
-    <title><em>maliti pizza inn</em></title>
   </head>
   <body>
-<div class="container-md-sm" id="back">
+    <div class="all" id="all">
   <div class="container text-white" id="background">
     <div class="jumbotrone">
         <h1 id="head"><strong>Maliti's Pizza</strong></h1>
@@ -19,13 +19,13 @@
       <h2><strong>MALITI INN PIZZA OFFERS THE THREE SIZES OF PIZZA <br>Be comfortable to chose your desired size.</strong></h2>
         <div class="row-no gutters" id="images">
           <img src="/images/small.jpg" alt="small"  width="90" height="100" style="width:300px;height:309px" id="sm">
-          <button class="btn">small</button>
+          <button class="btn" id="small" onclick="">small</button>
           <p><em>This is the smallest pizza size <br> which is preffered by many people buh quite expensive <br>it goes for sh200</em></p>
           <img src="/images/medium.jpeg" alt="medium"  width="100" height="100" style="width:400px;height:309px" id="md">
-          <button class="btn">medium</button>
+          <button class="btn" id="medium">medium</button>
           <p><em>this is the <br> medium sized pizza <br> which goes for around sh400</em></p>
           <img src="/images/large.jpg" alt="large"  width="400" height="200" style="width:450px;height:350px" id="lg">
-          <button class="btn">large</button>
+          <button class="btn" id="large">large</button>
          <p><em>This is the big size pizza <br>that is prefferd by many and <br>it goes for sh800</em></p>
         </div>
      </div>
@@ -37,7 +37,6 @@
           <div class="work1">
               <img src="/images/toppings.bacon.jpg" class="img-fluid" alt="work 1" width="90" height="100" style="width:300px;height:309px" id="sm">
               <div class="words">
-                <button class="btn">Click Bacon</button>
                   <p>bacon topping</p>
               </div>
           </div>
@@ -46,7 +45,6 @@
         <div class="work2">
             <img src="/images/toppings.cheese.jpeg" class="img-fluid" alt="work 2" width="90" height="100" style="width:300px;height:309px" id="sm">
             <div class="words">
-              <button class="btn">Choose cheese</button>
                 <p>cheese topping</p>
             </div>
         </div>
@@ -55,8 +53,7 @@
         <div class="work3">
             <img src="/images/toppings.onion.jpeg" class="img-fluid" alt="work 3" width="90" height="100" style="width:300px;height:309px" id="sm">
             <div class="words">
-              <button class="btn">Choose onion</button>
-                <p>onion topping</p>
+             <p>onion topping</p>
             </div>
         </div>
     </div>
@@ -64,7 +61,6 @@
         <div class="work4">
             <img src="/images/toppings.pepporoni.web" class="img-fluid" alt="work 4" width="90" height="100" style="width:300px;height:309px" id="sm">
             <div class="words">
-              <button class="btn">Choose pepporoni</button>
                 <p>pepporoni topping</p>
             </div>
         </div>
@@ -75,7 +71,6 @@
         <div class="work5">
             <img src="/images/toppings.sausage.jpeg" class="img-fluid" alt="work 5" width="90" height="100" style="width:300px;height:309px" id="sm">
             <div class="words">
-              <button class="btn">Choose sausage</button>
                 <p>sausage topping</p>
             </div>
         </div>
@@ -84,7 +79,6 @@
         <div class="work6">
             <img src="/images/topppings.green.jpeg" class="img-fluid" alt="work 6" width="90" height="100" style="width:300px;height:309px" id="sm">
             <div class="words">
-              <button class="btn">Choose greens</button>
                 <p>greens topping</p>
             </div>
         </div>
@@ -93,7 +87,6 @@
         <div class="work7">
         <img src="/images/toppings.bacon.jpg" class="img-fluid" alt="work 7" width="90" height="100" style="width:300px;height:309px" id="sm">
         <div class="words">
-          <button class="btn">Choose baconade</button>
             <p>Bacon murshed up topping</p>
         </div>     
         </div>
@@ -102,54 +95,99 @@
         <div class="work8">
             <img src="/images/toppings.onion.jpeg" class="img-fluid" alt="work 8" width="90" height="100" style="width:300px;height:309px" id="sm">
             <div class="words">
-              <button class="btn">Choose onionade <button class="btn">Click Bacon</button></button>
+              <button class="btn">Choose onionade 
                 <p>onion grinded topping</p>
             </div>
         </div>
     </div>
   </div>
 </div>
-<div class="col-md-3">
-  <div class="container-col-md-3">
-    <h2 id="position" class="text-center pt-4 ">WHAT WE DO</h2>
-    <div class="row-no-guttets">
-    <div id="designs" class="design col-md-3 text-center pt-4">
-    <div class="icon1">
-    <img id="image1" class="img-fluid" src="/images/crust.crispy.jpg" alt="Design icon" class="img-fluid" alt="work 4" width="90" height="100" style="width:300px;height:309px" id="sm">
-    <div class="words">
-      <button class="btn">Choose pepporoni</button>>
-    <h4>CRISPY</h4>
-    </div>
-    <div id="design">
-    <p><em>Crust-crispy</em> <br>is pizza that is crusted using crispy</p>
-    </div>
-    </div>
-            
-<div id="development" class="development col-md-4 text-center pt-4">
-<div id="icon2">
-<img id="image2" class="img-fluid" src="/images/crust.glutten.jpeg">
-<h5>STUFFED</h5>
+<div class="order">
+  <h2>Make Your Order Now</h2>
+
+  <form id="charge">
+      <div class="row">
+          <div class="col-md-4">
+              <label for="">Pizza Size</label>
+              <br>
+              <select name="" id="size">
+          
+          <option value="Size">select size</option>
+          <option value="Small">Small Ksh.200</option>
+          <option value="Medium">Medium Ksh. 400</option>
+          <option value="Large">Large Ksh. 700</option>
+
+      </select>
+          </div>
+          <br><br>
+
+          <div class="col-md-4">
+              <label for="">Toppings</label>
+              <br>
+              <select name="" id="vegetable">
+
+              <option value="">vegetable</option>
+              <option value="Mushrooms">Mushrooms ksh. 50</option>
+              <option value="Onions">Onions ksh. 50</option>
+              <option value="Capsicum">Capsicum ksh.50</option>
+              
+          </select>
+
+              <select name="" id="novegetable">
+                  
+              <option value="">none vegetable</option>
+              <option value="Chicken">Chicken ksh. 150</option>
+              <option value="Sausage">Sausage ksh. 150</option>
+              <option value="Bacon">Bacon ksh. 150</option>
+          </select>
+          </div>
+
+          <br><br>
+
+          <div class="col-md-4">
+
+              <label for="">Crust</label>
+              <br>
+
+              <select name="Crust" id="crust">
+
+              <option value="Crust">crust</option>
+              <option value="Crispy">Crispy ksh. 100</option>
+              <option value="Stuffed">Stuffed ksh. 100</option>
+              <option value="Gluten-free">Gluten free ksh. 50</option>
+
+          </select>
+          </div>
+      </div>
+      <br><br>
+
+      <input type="submit" class="btn  btn-rounded waves-effect btn-lg" value="Order!!" id="order">
+  </form>
+
+
 </div>
-<div id="stuffed">
-<p><em><Crust-stuffed</em> is pizza crusted</p>
 </div>
+<div class="order">
+<h3>Receipt</h3>
+<p id="sz">Pizza size:</p>
+<p id="vgs">Veges:</p>
+<p id="nvgs">Non-veges:</p>
+<p id="cr">Crust:</p>
+<p id="tc">Total charges:</p>
+</div>
+<br><br>
+
+<div class="order1 text-center">
+<input type="submit" class="btn  btn-rounded waves-effect btn-lg" value="Deliver?" id="deliver">
 </div>
 
-<div id="product" class="product management col-md-5 text-center pt-4">
-<div id="icon3">
-<img id="image3" class="img-fluid" src="/images/crust.stuffed.jpeg" alt="product_icon">
-<h6>GLUTTEN_FREE</h6>
-</div>
-<div id="Products">
-<p>glitten-freee is crusted pizza<p>
-</div>
-</div>
-</div>     
-</div>
+
+<footer>
+<p>For order <br> call +254 748627405</p>
+<p>Email: malitimark55@gmail.com</p>
+</footer>
 
 </div>
-
 </div>
- 
-  </body>
+</body>
 </html>
