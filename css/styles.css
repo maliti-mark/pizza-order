@@ -49,11 +49,16 @@ button {
 footer{
     text-align: center;
 }
-#size{
+#size {
     background-color fixed: gray;
     h2{
     
 }
+#size.toggle{
+    p
+}
+
+
 #size h2{
     color: blanchedalmond;
 }

@@ -60,7 +60,7 @@ order.prototype.totalCost = function() {
     return orderTotal;
 }
 
-
+//inner interface
 $(document).ready(function() {
     $("input#order").click(function(event) {
         event.preventDefault();
@@ -88,16 +88,63 @@ $(document).ready(function() {
         prompt("Please insert you location")
         prompt("Please insert your addrress")
         alert("You will be charged an extra 200 for delivery")
-        alert("Thank you for Your Purchase!Your order will be delivered to your location 🍕 🚚")
+        alert("Thank you for Your Purchase!Your order will be delivered to your location")
 
     });
 
-
-
-    $(".eve1").hover(function() {
-        $(".para").slideToggle(1000);
+    $(".work1").hover(function() {
+        $(".p1").slideToggle(1000);
         $("#img1").slideToggle(1000);
-        $(".para").show();
+        $(".p1").show();
+    });
+
+
+    $(".work2").hover(function() {
+        $(".p2").slideToggle(1000);
+        $("#img2").slideToggle(1000);
+        $(".p2").show();
+    });
+
+
+    $(".work3").hover(function() {
+        $(".parag").slideToggle(1000);
+        $("#img3").slideToggle(1000);
+        $(".parag").show();
+    });
+
+
+    $(".work4").hover(function() {
+        $(".p4").slideToggle(1000);
+        $("#img").slideToggle(1000);
+        $(".p4").show();
+    });
+
+
+    $(".work5").hover(function() {
+        $(".p5").slideToggle(1000);
+        $("#img5").slideToggle(1000);
+        $(".p5").show();
+    });
+
+
+    $(".work6").hover(function() {
+        $(".p6").slideToggle(1000);
+        $("#img6").slideToggle(1000);
+        $(".p6").show();
+    });
+
+
+    $(".work7").hover(function() {
+        $(".p7").slideToggle(1000);
+        $("#img7").slideToggle(1000);
+        $(".p7").show();
+    });
+
+
+    $(".work8").hover(function() {
+        $(".p8").slideToggle(1000);
+        $("#img8").slideToggle(1000);
+        $(".p8").show();
     });
 
 })
